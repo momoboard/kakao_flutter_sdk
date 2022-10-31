@@ -20,7 +20,10 @@ dependencies:
   dio: ^4.0.0
   platform: ^3.0.0
   kakao_flutter_sdk_template:
-    path: ../kakao_flutter_sdk_template
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_template
 
 dev_dependencies:
   flutter_test:

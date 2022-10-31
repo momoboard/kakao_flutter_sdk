@@ -17,21 +17,45 @@ dependencies:
   flutter:
     sdk: flutter
   kakao_flutter_sdk_common:
-    path: ../kakao_flutter_sdk_common
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_common
   kakao_flutter_sdk_auth:
-    path: ../kakao_flutter_sdk_auth
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_auth
   kakao_flutter_sdk_share:
-    path: ../kakao_flutter_sdk_share
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_share
   kakao_flutter_sdk_navi:
-    path: ../kakao_flutter_sdk_navi
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_navi
   kakao_flutter_sdk_story:
-    path: ../kakao_flutter_sdk_story
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_story
   kakao_flutter_sdk_talk:
-    path: ../kakao_flutter_sdk_talk
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_talk
   kakao_flutter_sdk_template:
-    path: ../kakao_flutter_sdk_template
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_template
   kakao_flutter_sdk_user:
-    path: ../kakao_flutter_sdk_user
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_user
 
 dev_dependencies:
   flutter_test:

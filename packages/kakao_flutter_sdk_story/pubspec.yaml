@@ -19,7 +19,10 @@ dependencies:
   json_annotation: ^4.1.0
   dio: ^4.0.0
   kakao_flutter_sdk_user:
-    path: ../kakao_flutter_sdk_user
+    git:
+      url: https://github.com/momoboard/kakao_flutter_sdk.git
+      ref: momo
+      path: packages/kakao_flutter_sdk_user
 
 dev_dependencies:
   flutter_test:
