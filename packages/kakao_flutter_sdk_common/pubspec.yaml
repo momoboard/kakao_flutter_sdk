@@ -20,9 +20,9 @@ dependencies:
     sdk: flutter
   json_annotation: ^4.1.0
   dio: ^4.0.0
-  shared_preferences: ^2.0.5
+  shared_preferences: ^2.0.13
   platform: ^3.0.0
-  package_info_plus: ^1.0.4
+  package_info_plus: ^3.0.1
   crypto: ^3.0.1
   encrypt: ^5.0.1
 
